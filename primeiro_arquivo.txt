@@ -1,0 +1,19 @@
+O git tem 3 estados principais: commited, modified e staged.
+
+commited: dados estão armazenados de forma segura em seu banco de dados local;
+modified: você alterou o arquivo, mas ainda não fez o commit;
+staged: marcou a versão atual de um arquivo modificado para fazer parte de seu próprio commit.
+
+Comandos mais utilizados:
+
+git init (iniciar repositório)
+git status (verificar status e modificações)
+git add . (adicionar alterações feitas)
+git commit -m "mensagem" (adicionar mensagem para situar alteração feita)
+git diff (mostra o que há de diferente nos arquivos)
+git log (mostra histórico de commits)
+git clone "url de um repositório" (clonar repositório existente)
+.gitignore (cria arquivo para adicionar documentos a serem ignorados nos commits)
+git tag -a "nome da tag" (marcar pontos de atualização, ex: v1.0)
+git push (enviar alterações para repositório remoto) 
+git pull (puxar alterações feitas no repositório remoto)
